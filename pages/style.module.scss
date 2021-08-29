@@ -1,0 +1,59 @@
+.container {
+    margin :55px auto;
+    width:60%;
+    header{
+        form{
+            button{
+                width:100%;
+                margin:10px 0 0 auto;
+                font-size:20px;
+                 display:block;
+            }
+        }
+    }
+ 
+    nav{
+        display: flex;
+        i{
+            font-size:2rem;
+            margin:0 5px;
+            justify-content: center;
+        }
+    }
+    hr{
+        margin:0 0 6px;
+    }
+
+    main {
+        .posts{
+            border:1px solid #ddd;
+            display: block;
+            .postsHead{
+                display:flex;
+                .accountphoto{
+                    width:30px;
+                }
+                .text{
+                    padding:15px;
+                    font-size:20px;
+                    display:flex;
+                    .name{
+                        font-weight:bold;
+                    }
+                    .p{
+                        padding-left:5px;
+                    }
+                }
+            }
+         .postsBody{
+              display:flex;
+              border-top:1px solid #ddd;
+              padding:5px ;
+              margin:0 auto;
+            .bodytext{
+              
+            }
+         }
+        }
+    }
+}
